@@ -1,0 +1,89 @@
+{
+  "apps": [
+    {
+      "name"           : "GUAT1",
+      "script"         : "./src/dist/server/server.js",
+      "exec_mode"      : "cluster",
+      "instances"      : 1,
+      "env": {
+        "APITOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibW9iaWxlIjoiOTMxMjA5ODk2OCIsInNlc3Npb25JZCI6ImticmQ0Y3E2QlYiLCJpYXQiOjE1ODQ0MzkzMTd9.XjKspPyF1rMNim6cJb5JSGXjHqMg3lpeBOkYgYD1gJg",
+        "SERVERID":"GUAT1",
+        "SERVERNAME" : "GUAT1",
+        "SERVERADDRESS":"ws://165.22.218.189:8082",
+        "SERVER_PORT":8082,
+        "GS_KEY":"J9h1q33EpZUeFudMqXIL7vpN2bZ7FUKnVr8jeLIiCcozdhy4Kc8cEbZlMFntb6T6rdxPRy052Wdhslb5E4ujoEsd21PruMuCEE6aPVXHaRwxDWE9g0pokduaDkbHakBY",
+        "LOADBALANCERURL" : "http://localhost:9091",
+        "APIURL"          : "http://157.245.105.92",
+        "LOCALURL"        : "http://localhost:4400"
+      }
+    },
+    {
+      "name"           : "GUAT2",
+      "script"         : "./src/dist/server/server.js",
+      "exec_mode"      : "cluster",
+      "instances"      : 1,
+      "env": {
+        "APITOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibW9iaWxlIjoiOTMxMjA5ODk2OCIsInNlc3Npb25JZCI6ImticmQ0Y3E2QlYiLCJpYXQiOjE1ODQ0MzkzMTd9.XjKspPyF1rMNim6cJb5JSGXjHqMg3lpeBOkYgYD1gJg",
+        "SERVERID":"GUAT2",
+        "SERVERNAME" : "GUAT2",
+        "SERVERADDRESS":"ws://165.22.218.189:8083",
+        "SERVER_PORT":8083,
+        "GS_KEY":"J9h1q33EpZUeFudMqXIL7vpN2bZ7FUKnVr8jeLIiCcozdhy4Kc8cEbZlMFntb6T6rdxPRy052Wdhslb5E4ujoEsd21PruMuCEE6aPVXHaRwxDWE9g0pokduaDkbHakBY",
+        "LOADBALANCERURL" : "http://localhost:9091",
+        "APIURL"          : "http://157.245.105.92",
+        "LOCALURL"        : "http://localhost:4400"
+      }
+    },
+    {
+      "name"           : "GUAT3",
+      "script"         : "./src/dist/server/server.js",
+      "exec_mode"      : "cluster",
+      "instances"      : 1,
+      "env": {
+        "APITOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibW9iaWxlIjoiOTMxMjA5ODk2OCIsInNlc3Npb25JZCI6ImticmQ0Y3E2QlYiLCJpYXQiOjE1ODQ0MzkzMTd9.XjKspPyF1rMNim6cJb5JSGXjHqMg3lpeBOkYgYD1gJg",
+        "SERVERID":"GUAT3",
+        "SERVERNAME" : "GUAT3",
+        "SERVERADDRESS":"ws://165.22.218.189:8084",
+        "SERVER_PORT":8084,
+        "GS_KEY":"J9h1q33EpZUeFudMqXIL7vpN2bZ7FUKnVr8jeLIiCcozdhy4Kc8cEbZlMFntb6T6rdxPRy052Wdhslb5E4ujoEsd21PruMuCEE6aPVXHaRwxDWE9g0pokduaDkbHakBY",
+        "LOADBALANCERURL" : "http://localhost:9091",
+        "APIURL"          : "http://157.245.105.92",
+        "LOCALURL"        : "http://localhost:4400"
+      }
+    },
+    {
+      "name"           : "GUAT5",
+      "script"         : "./src/dist/server/server.js",
+      "exec_mode"      : "cluster",
+      "instances"      : 1,
+      "env": {
+        "APITOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibW9iaWxlIjoiOTMxMjA5ODk2OCIsInNlc3Npb25JZCI6ImticmQ0Y3E2QlYiLCJpYXQiOjE1ODQ0MzkzMTd9.XjKspPyF1rMNim6cJb5JSGXjHqMg3lpeBOkYgYD1gJg",
+        "SERVERID":"GUAT5",
+        "SERVERNAME" : "GUAT5",
+        "SERVERADDRESS":"ws://165.22.218.189:8085",
+        "SERVER_PORT":8085,
+        "GS_KEY":"J9h1q33EpZUeFudMqXIL7vpN2bZ7FUKnVr8jeLIiCcozdhy4Kc8cEbZlMFntb6T6rdxPRy052Wdhslb5E4ujoEsd21PruMuCEE6aPVXHaRwxDWE9g0pokduaDkbHakBY",
+        "LOADBALANCERURL" : "http://localhost:9091",
+        "APIURL"          : "http://157.245.105.92",
+        "LOCALURL"        : "http://localhost:4400"
+      }
+    },
+    {
+      "name"           : "GUAT6",
+      "script"         : "./src/dist/server/server.js",
+      "exec_mode"      : "cluster",
+      "instances"      : 1,
+      "env": {
+        "APITOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibW9iaWxlIjoiOTMxMjA5ODk2OCIsInNlc3Npb25JZCI6ImticmQ0Y3E2QlYiLCJpYXQiOjE1ODQ0MzkzMTd9.XjKspPyF1rMNim6cJb5JSGXjHqMg3lpeBOkYgYD1gJg",
+        "SERVERID":"GUAT6",
+        "SERVERNAME" : "GUAT6",
+        "SERVERADDRESS":"ws://165.22.218.189:8086",
+        "SERVER_PORT":8086,
+        "GS_KEY":"J9h1q33EpZUeFudMqXIL7vpN2bZ7FUKnVr8jeLIiCcozdhy4Kc8cEbZlMFntb6T6rdxPRy052Wdhslb5E4ujoEsd21PruMuCEE6aPVXHaRwxDWE9g0pokduaDkbHakBY",
+        "LOADBALANCERURL" : "http://localhost:9091",
+        "APIURL"          : "http://157.245.105.92",
+        "LOCALURL"        : "http://localhost:4400"
+      }
+    }
+  ]
+}

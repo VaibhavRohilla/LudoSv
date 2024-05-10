@@ -1,0 +1,8 @@
+.env
+.vscode
+../.idea
+node_modules
+
+*-stdOut.txt
+
+.env

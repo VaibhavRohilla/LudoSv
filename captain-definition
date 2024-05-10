@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "dockerfileLines": [
+                        "FROM node:12.21.0-alpine3.11",
+                        "RUN mkdir -p /usr/src/app",
+                        "WORKDIR /usr/src/app",
+                        "COPY ./package.json /usr/src/app/",
+                        "COPY ./ /usr/src/app",
+                        "RUN apk add --no-cache libc6-compat",
+                        "RUN ln -s /lib/libc.musl-x86_64.so.1 /lib/ld-linux-x86-64.so.2",
+                        "ENV NODE_ENV production",
+                        "ENV PORT 80",
+                        "EXPOSE 80",
+                        "CMD [ \"npm\", \"start\" ]"
+                    ]
+ }
